@@ -14,14 +14,14 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Jakub Kozel - DTP, GRAFIKA, DESIGN',
-  ignoreTitleTemplate: true,
+  ignoreTitleTemplate: false,
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
+  <!-- <Hero
     actions={[
       {
         variant: 'primary',
@@ -33,7 +33,7 @@ const metadata = {
       { text: 'Learn more', href: '#features' },
     ]}
 
-  >
+  > -->
     <Fragment slot="title">
       Jakub Kozel <span class="hidden xl:inline"></span>
       <!-- <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS -->
@@ -52,7 +52,7 @@ const metadata = {
 
   <!-- Note Widget ******************* -->
 
-  <Note />
+  <!-- <Note /> -->
 
   <!-- Features Widget ***************
 

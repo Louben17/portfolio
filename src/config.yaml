@@ -1,6 +1,6 @@
 site:
   name: Jakub Kozel
-  site: 'https://astrowind.vercel.app'
+  site: 'https://jakubkozel.cz'
   base: '/'
   trailingSlash: false
 
